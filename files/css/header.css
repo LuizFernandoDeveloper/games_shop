@@ -19,7 +19,6 @@ header nav li{
     display: inline;
     margin-left: 14px;
     
-
 }
 
 header nav li a{
@@ -28,6 +27,7 @@ header nav li a{
     text-decoration: none;
     font-family: 'Bungee', cursive;
     font-size: 12px;
+    
 }
 
 .container{
