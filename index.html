@@ -4,26 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--Adding reset css styles files-->
     <link rel="stylesheet" href="./files/css/rest.css">
-
-
     <!--Addind main css style files-->
     <link rel="stylesheet" href="./files/css/main.css">
-
     <!--Adding header css style files-->
     <link rel="stylesheet" href="./files/css/header.css">
-
     <!--Adding root css style files-->
     <link rel="stylesheet" href="./files/css/root.css">
-     
+    <!--Adding footer css styles files-->
+    <link rel="stylesheet" href="./files/css/footer.css">
     <!--Adding font from google fonts in my project-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
-
-
     <title>Games Shop- A sua loja de games</title>
 </head>
 <body>
@@ -33,14 +27,10 @@
             <nav>
                 <ul>
                     <li>
-
-                        <a href="#">Sobre a loja</a>
-                        
+                        <a href="#about">Sobre a loja</a>
                     </li>
                     <li>
-
-                        <a href="#">Contato</a>
-
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -48,10 +38,8 @@
     </header>
     <main>
         <div class="container">
-
             <img class="store-front" src="./files/images/loja.jpg" alt="loja Games Shop"/>
-
-            <div>
+            <div id="about">
                 <h2>Sobre a loja</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatem accusantium magni labore ipsam in sit totam quos quidem. Optio aperiam veritatis reprehenderit? Iusto in dignissimos a placeat fugiat perferendis.
@@ -72,6 +60,51 @@
                 </ul>
             </div>
         </div>
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contact-methods">
+                    <div>
+                        <h3>Fale conosco</h3>
+                        <form action="">
+                            <input type="text" placeholder="Digite seu nome" required>
+                            <input type="email" placeholder="Dgite seu E-mail" required>
+                            <input type="tel" placeholder="Seu telefone(opcional)">
+                            <textarea label="Dgite sua mensagem" placeholder=" Digite sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                            
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos acompanhe</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-nos no Instagram"><img src="./files/images/instagram.png" alt="Logo instagram"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook"><img src="./files/images/facebook.png" alt="Logo Facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite nosso canal no youtube"><img src="./files/images/youtube.png" alt="Logo Youtube"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Venha até nós</h3>
+                        <p>
+                            Rua frei serafim n°460, Dom Bosco - Betim - Minas Gerais 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

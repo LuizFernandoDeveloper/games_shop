@@ -1,4 +1,5 @@
-body{
+body, input, textarea{
     
     font-family: 'Roboto', sans-serif;
+
 }

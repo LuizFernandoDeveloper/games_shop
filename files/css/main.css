@@ -26,7 +26,7 @@ main {
 
 }
 
-main h2{
+main h2, main h3, form button{
 
     margin-bottom: 16px;
     font-family: 'Bungee', cursive;
@@ -45,6 +45,77 @@ main p{
     margin-right: 32px;
 
 }
+
+.social-links img{
+
+    height: 24px;
+    margin-top: 10px;
+
+}
+
+.social-links li{
+
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.social-links li a {
+
+    text-decoration: none;
+
+}
+
+#contact .container{
+
+    display: block;
+    
+}
+
+#contact .contact-methods{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+form input, form textarea, form button{
+
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+
+}
+
+form textarea{
+
+    resize: none;
+    height: 120px;
+
+}
+
+form button{
+
+    background-color: #182C61;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+form button:hover{
+
+    background-color: #314e9e;
+
+
+}
+
+input:focus, textarea:focus{
+
+    outline-color: #182C61;
+}
+
 
 
 
